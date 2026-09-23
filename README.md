@@ -1,236 +1,179 @@
-SALES PERFORMANCE DASHBOARD
+# 📊 Sales Performance Dashboard
 
 ![Sales Performance Dashboard](Picture1.png)
-1. Project Overview
 
-The Sales Performance Dashboard is an interactive data visualization tool designed to monitor and analyze business sales performance. It provides a comprehensive overview of sales revenue, purchases, quantity sold, profit, product performance, payment methods, and category performance.
+## 📌 Project Overview
 
-The dashboard presents business data in a visual and understandable format, helping users identify sales trends, monitor profitability, compare product performance, and make informed business decisions.
+The **Sales Performance Dashboard** is an interactive data visualization project designed to analyze business sales performance. It provides insights into total sales, purchases, quantity sold, profit, product performance, payment methods, and category performance.
 
-2. Dashboard Preview
+The dashboard helps users monitor business activities, identify sales trends, and make data-driven decisions.
 
-Sales Performance Dashboard
+## 🖼️ Dashboard Preview
 
-3. Objectives of the Dashboard
+![Sales Performance Dashboard](Picture1.png)
 
-The main objectives of this dashboard are to:
+## 🎯 Project Objectives
 
-Monitor total sales, purchases, quantity sold, and profit.
+* Monitor total sales, purchases, quantity, and profit.
+* Analyze monthly, weekly, and daily sales trends.
+* Identify the top 10 products by sales value.
+* Examine payment methods and category performance.
+* Compare business performance using interactive filters.
+* Support business planning and decision-making.
 
-Analyze monthly, weekly, and daily sales performance.
+## 📈 Key Performance Indicators (KPIs)
 
-Identify the top 10 products contributing to sales.
+| KPI               |     Value |
+| ----------------- | --------: |
+| Total Sales       | 40,111.92 |
+| Total Purchase    | 33,204.00 |
+| Total Quantity    |     4,280 |
+| Total Profit      |  6,907.92 |
+| Profit Percentage |       21% |
 
-Examine the distribution of payments by payment mode.
+### KPI Interpretation
 
-Compare sales performance across different product categories.
+* **Total Sales:** The total sales value recorded is 40,111.92.
+* **Total Purchase:** The total purchase value is 33,204.00.
+* **Total Quantity:** A total quantity of 4,280 is displayed.
+* **Total Profit:** The dashboard reports a profit of 6,907.92.
+* **Profit Percentage:** The dashboard displays a profit percentage of 21%.
 
-Provide interactive filters for analyzing specific years, months, and sales types.
+> **Note:** The profit percentage requires validation. Based on the displayed figures, profit divided by sales is approximately 17.2%, while profit divided by purchases is approximately 20.8%.
 
-Support effective business planning and decision-making through data visualization.
+## 🎛️ Dashboard Filters
 
-4. Key Performance Indicators (KPIs)
+The dashboard contains interactive filters for:
 
-The dashboard contains five major Key Performance Indicators.
+* **Year:** 2021 and 2022
+* **Month:** Allows selection of individual months.
+* **Sale Type:** Direct Sales and Online.
 
-KPI
+These filters allow users to analyze specific periods and sales channels.
 
-	
+## 📊 Dashboard Analysis
 
-Value
+### 1. Monthly Sales Analysis
 
+The monthly sales line chart compares total sales and total purchases across the months.
 
+It helps users identify monthly trends, observe fluctuations in sales, and compare sales performance with purchasing activity.
 
+### 2. Weekly Sales Analysis
 
-Total Sales
+The weekly sales chart compares sales from Monday to Sunday.
 
-	
+From the displayed chart:
 
-40,111.92
+* Highest visible sales: Sunday — 6,808.56
+* Lowest visible sales: Wednesday — 4,503.96
 
+This analysis helps identify differences in sales activity across the days of the week.
 
+### 3. Daily Sales Analysis
 
+The daily sales area chart displays sales values across the days of the month, from day 1 to day 31.
 
-Total Purchase
+It provides an overview of daily fluctuations and helps identify periods of relatively high or low sales activity.
 
-	
+### 4. Top 10 Products Analysis
 
-33,204.00
+The Top 10 Products chart highlights products with the highest displayed sales values.
 
+The leading products shown include:
 
+* P004 — approximately 2,952.16
+* P030 — approximately 2,245.92
 
+This visualization helps identify products contributing substantial sales values and supports inventory and product performance monitoring.
 
-Total Quantity
+### 5. Payment Mode Analysis
 
-	
+The payment mode doughnut chart compares Cash and Online payment methods.
 
-4,280
+It provides a visual overview of the payment categories represented in the dashboard.
 
+This information can help businesses understand payment patterns and evaluate their payment processing options.
 
+### 6. Category Performance Analysis
 
+The category chart compares the displayed values across different product categories.
 
-Total Profit
+The visible dashboard shows:
 
-	
+* Category04 — approximately 9,529.40
+* Category03 — approximately 9,526.87
 
-6,907.92
+The visualization supports comparison of category-level performance.
 
+## 🔍 Key Findings
 
+Based on the dashboard screenshot:
 
+1. Total sales are recorded as 40,111.92.
+2. Total purchases amount to 33,204.00.
+3. The reported total profit is 6,907.92.
+4. Sunday has the highest displayed weekly sales value.
+5. Wednesday has the lowest displayed weekly sales value.
+6. P004 leads the visible Top 10 Products chart.
+7. Category04 and Category03 have similar displayed values.
+8. The dashboard supports analysis by year, month, and sale type.
 
-Percentage Profit
+*These findings are based on the visible dashboard and should be validated against the underlying dataset and selected filters.*
 
-	
+## 💡 Business Questions Addressed
 
-21%
+The dashboard helps answer the following questions:
 
-Interpretation of the KPIs
+* What is the total sales revenue?
+* What is the total purchase value?
+* How much profit is recorded?
+* How do sales and purchases change monthly?
+* Which weekday records the highest sales?
+* Which products have the highest sales values?
+* How do sales fluctuate daily?
+* What payment methods are represented?
+* Which categories have the highest displayed values?
+* How does performance differ by year and sale type?
 
-Total Sales: The dashboard records total sales of 40,111.92, representing the overall sales value displayed.
+## 🚀 Recommendations
 
-Total Purchase: The total purchase value is 33,204.00, showing the amount recorded for purchases.
+1. **Validate KPI formulas:** Confirm the intended profit percentage calculation and ensure the label matches the formula.
+2. **Verify payment mode calculations:** Confirm whether the chart represents transaction count, sales value, or another measure.
+3. **Improve reporting context:** Include the reporting period, currency, data source, and refresh date.
+4. **Enhance readability:** Ensure chart labels and values are clearly visible.
+5. **Test dashboard filters:** Confirm that all relevant KPIs and charts respond correctly to filter selections.
 
-Total Quantity: A total quantity of 4,280 is displayed, representing the quantity of goods recorded in the dataset.
+## 🛠️ Tools and Technologies
 
-Total Profit: The dashboard reports a total profit of 6,907.92, indicating the difference between the recorded sales and purchase values.
+The software used to create the dashboard is not identified in the screenshot.
 
-Percentage Profit: The dashboard displays a profit percentage of 21%.
+Update this section to include the tools used in your project, such as:
 
-Note: The displayed 21% should be validated against the intended formula. Based on the visible figures, profit divided by sales is approximately 17.2%, while profit divided by purchases is approximately 20.8%.
+* Microsoft Excel
+* Power Query
+* Power BI
 
-5. Dashboard Filters
+## 📁 Repository Structure
 
-The dashboard contains interactive filters that allow users to explore the data based on specific criteria.
+```text
+sales-performance-dashboard/
+│
+├── README.md
+└── Picture1.png
+```
 
-Year Filter
+## 📝 Conclusion
 
-The year filter allows users to select between 2021 and 2022. This helps compare business performance across different years.
+The Sales Performance Dashboard provides a consolidated view of business performance through key performance indicators and interactive visualizations.
 
-Month Filter
+It enables users to examine sales trends, compare purchasing activity, monitor profitability, identify leading products, and explore category and payment patterns.
 
-The month filter allows users to select specific months to analyze sales and purchasing trends over time.
+The dashboard provides a foundation for business performance monitoring and data-driven decision-making. Validating the KPI calculations and documenting the dataset will further improve the reliability of the analysis.
 
-Sale Type Filter
+---
 
-The sale type filter provides options such as Direct Sales and Online. It enables users to examine sales performance according to the method of selling.
+**Project:** Sales Performance Dashboard
+**Purpose:** Sales analysis and business performance monitoring
+**Report Format:** GitHub README.md
 
-These filters help users focus on specific portions of the dataset and investigate business performance in greater detail.
-
-6. Sales Analysis and Visualization
-6.1 Monthly Sales Analysis
-
-The monthly sales chart is a line chart that compares total sales and total purchases across different months.
-
-The chart helps identify changes in sales revenue and purchasing activity throughout the year. It also allows users to observe periods when sales increase or decrease relative to purchases.
-
-This information can support inventory planning, purchasing decisions, and monthly performance monitoring.
-
-6.2 Weekly Sales Analysis
-
-The weekly sales chart presents sales performance from Monday to Sunday using a column chart.
-
-From the visible dashboard, Sunday records the highest displayed weekly sales value of approximately 6,808.56, while Wednesday records the lowest displayed value of approximately 4,503.96.
-
-This visualization helps identify variations in sales activity across the days of the week and can support decisions concerning staffing, stock availability, and sales planning.
-
-6.3 Daily Sales Analysis
-
-The daily sales chart displays sales values across the days of the month, from day 1 to day 31.
-
-The area chart makes it easier to observe daily fluctuations and identify periods of relatively high or low sales activity.
-
-This information can help businesses monitor daily performance, identify unusual changes, and evaluate sales patterns within a month.
-
-6.4 Top 10 Products Analysis
-
-The Top 10 Products chart displays the ten products with the highest sales values in the dashboard.
-
-The visible chart shows P004 at the top, with a displayed value of approximately 2,952.16, followed by P030 at approximately 2,245.92.
-
-This analysis helps identify products contributing substantial sales values and supports product performance monitoring, inventory management, and sales planning.
-
-6.5 Payment Mode Analysis
-
-The payment mode chart uses a doughnut chart to display the payment categories Cash and Online.
-
-The visualization provides a comparison of the payment values or shares represented by the two payment methods.
-
-This analysis can help a business understand how customers make payments and support decisions concerning payment processing and transaction management.
-
-The exact percentage interpretation should be confirmed using the underlying data and calculation definitions.
-
-6.6 Category Performance Analysis
-
-The category chart compares the displayed values for different product categories.
-
-The visible dashboard shows Category04 with approximately 9,529.40 and Category03 with approximately 9,526.87.
-
-The chart allows users to compare category-level performance and identify categories that contribute substantial values to the overall results.
-
-This information can support product categorization, inventory planning, and performance evaluation.
-
-7. Key Findings
-
-Based on the figures visible in the dashboard, the following observations can be made:
-
-The total sales value displayed is 40,111.92.
-
-The total purchase value is 33,204.00.
-
-The reported total profit is 6,907.92.
-
-Sunday has the highest displayed weekly sales value, while Wednesday has the lowest.
-
-Product P004 has the highest displayed value in the Top 10 Products chart.
-
-Category04 and Category03 have similar displayed values.
-
-The dashboard supports analysis by year, month, and sales type.
-
-These findings are based on the screenshot and should be confirmed against the underlying dataset and selected filters before being used in formal business reporting.
-
-8. Business Questions Addressed
-
-The dashboard helps answer the following business questions:
-
-What is the total sales revenue?
-
-What is the total purchase value?
-
-How much profit is recorded?
-
-How do sales and purchases change from month to month?
-
-Which days of the week record the highest and lowest sales?
-
-How does sales performance fluctuate daily?
-
-Which products generate the highest sales values?
-
-How are payments distributed between Cash and Online?
-
-Which product categories have the highest displayed values?
-
-How does business performance differ by year, month, and sales type?
-
-9. Recommendations
-
-Based on the dashboard structure and visible figures, the following improvements are recommended:
-
-Validate the profit percentage: Confirm whether the intended calculation is profit divided by sales, profit divided by purchase, or another measure. Ensure the KPI label matches the formula.
-
-Improve payment mode reporting: Confirm whether the payment chart represents transaction count, sales value, or another measure, and verify that its percentages reflect the intended total.
-
-Include reporting details: Add the data source, reporting period, currency, and last refresh date to provide more context.
-
-Improve chart readability: Ensure labels and values remain readable when the dashboard is viewed on different screen sizes.
-
-Test the interactive filters: Verify that selecting a year, month, or sales type updates all relevant KPIs and charts consistently.
-
-10. Conclusion
-
-The Sales Performance Dashboard provides a consolidated view of business performance through key indicators and interactive visualizations.
-
-It combines sales, purchase, quantity, and profit metrics with monthly, weekly, and daily sales analysis, top product performance, payment mode comparisons, and category-level analysis.
-
-The dashboard can support business monitoring, trend identification, and informed decision-making. Validating the KPI calculations and documenting the underlying dataset will further strengthen the accuracy and usefulness of the report.
