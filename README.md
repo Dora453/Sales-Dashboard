@@ -8,10 +8,6 @@ The **Sales Performance Dashboard** is an interactive data visualization project
 
 The dashboard helps users monitor business activities, identify sales trends, and make data-driven decisions.
 
-## 🖼️ Dashboard Preview
-
-![Sales Performance Dashboard](Picture1.png)
-
 ## 🎯 Project Objectives
 
 * Monitor total sales, purchases, quantity, and profit.
